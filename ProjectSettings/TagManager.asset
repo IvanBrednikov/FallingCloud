@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - chunk
+  - storm cloud
+  - floor
+  - Boss
+  - BossChildCollider
+  - CloudShield
+  - Projectile
+  - Portal
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - BossShield
+  - Water
+  - UI
+  - BossMask
+  - PlayerMask
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BossVisual
+    uniqueID: 1782686033
+    locked: 0
+  - name: PlayerVisual
+    uniqueID: 2996384085
+    locked: 0
+  - name: LightningProjectile
+    uniqueID: 559109777
+    locked: 0
+  - name: BossStageLightning
+    uniqueID: 4139311279
+    locked: 0

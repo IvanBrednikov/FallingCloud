@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/GameUI.uss?fileID=7433441132597879392&amp;guid=8cc69be38fa806f409e37f115ec5c629&amp;type=3#GameUI" />
+    <ui:VisualElement name="Root" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement name="PauseWindow" style="align-items: stretch;">
+            <ui:VisualElement name="PauseLabel" class="panel" style="margin-bottom: 20px;">
+                <ui:Label text="#pause" display-tooltip-when-elided="true" style="font-size: 60px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="PauseMenu" class="panel">
+                <ui:Button text="#resume" display-tooltip-when-elided="true" name="Resume" tabindex="1" />
+                <ui:Button text="#options" display-tooltip-when-elided="true" name="Options" tabindex="2" />
+                <ui:Button text="#exitGame" display-tooltip-when-elided="true" name="ExitGame" tabindex="3" />
+                <ui:Button text="#mainMenu" display-tooltip-when-elided="true" name="MainMenu" tabindex="4" />
+            </ui:VisualElement>
+            <ui:Label text="Seed:000000000000" display-tooltip-when-elided="true" name="MapSeedLabel" style="font-size: 30px; align-items: stretch; -unity-text-align: upper-center; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+            <ui:Label text="Distnance:2500" display-tooltip-when-elided="true" name="DistanceLabel" style="font-size: 30px; align-items: stretch; -unity-text-align: upper-center; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

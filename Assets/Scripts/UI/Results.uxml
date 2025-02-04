@@ -1,0 +1,93 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/GameUI.uss?fileID=7433441132597879392&amp;guid=8cc69be38fa806f409e37f115ec5c629&amp;type=3#GameUI" />
+    <ui:VisualElement name="Root" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement name="ResultWindow" class="panel">
+            <ui:VisualElement name="Row1" style="flex-direction: row; margin-left: 10px; margin-right: 10px;">
+                <ui:VisualElement name="Column1" style="flex-direction: column; margin-right: 5px;">
+                    <ui:VisualElement name="TotalPoints" style="flex-direction: row;">
+                        <ui:Label text="#totalPoints" display-tooltip-when-elided="true" name="ElementName" />
+                        <ui:Label text="2500" display-tooltip-when-elided="true" name="Value" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Distance" style="flex-direction: row;">
+                        <ui:Label text="#distance" display-tooltip-when-elided="true" name="ElementName" />
+                        <ui:Label text="2500" display-tooltip-when-elided="true" name="Value" />
+                        <ui:Label text="#meters" display-tooltip-when-elided="true" name="Metric" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ObstaclesDestroyed" style="flex-direction: row;">
+                        <ui:Label text="#obstacleDestroyed" display-tooltip-when-elided="true" name="ElementName" />
+                        <ui:Label text="250" display-tooltip-when-elided="true" name="Value" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ProjectilesDestroyed" style="flex-direction: row;">
+                        <ui:Label text="#projectilesDestroyed" display-tooltip-when-elided="true" name="ElementName" />
+                        <ui:Label text="250" display-tooltip-when-elided="true" name="Value" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="TotalFoodEaten" style="flex-direction: row;">
+                        <ui:Label text="#totalFood" display-tooltip-when-elided="true" name="ElementName" />
+                        <ui:Label text="400" display-tooltip-when-elided="true" name="Value" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="FoodEatenByRain" style="flex-direction: row;">
+                        <ui:Label text="#foodByRain" display-tooltip-when-elided="true" name="ElementName" />
+                        <ui:Label text="400" display-tooltip-when-elided="true" name="Value" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ObjectsMovedByTornado" style="flex-direction: row;">
+                        <ui:Label text="#objectsTornado" display-tooltip-when-elided="true" name="ElementName" />
+                        <ui:Label text="400" display-tooltip-when-elided="true" name="Value" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="SufferedDamage" style="flex-direction: row;">
+                        <ui:Label text="#sufferedDamage" display-tooltip-when-elided="true" name="ElementName" />
+                        <ui:Label text="30" display-tooltip-when-elided="true" name="Value" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Attempts" style="flex-direction: row;">
+                        <ui:Label text="#currentAttempt" display-tooltip-when-elided="true" name="ElementName" />
+                        <ui:Label text="19000" display-tooltip-when-elided="true" name="Value" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="Column2" style="margin-left: 5px;">
+                    <ui:VisualElement name="HealthEarn" style="flex-direction: row;">
+                        <ui:Label text="#healthEarn" display-tooltip-when-elided="true" name="ElementName" />
+                        <ui:Label text="30" display-tooltip-when-elided="true" name="Value" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Difficulty" style="flex-direction: row;">
+                        <ui:Label text="#difficulty" display-tooltip-when-elided="true" name="ElementName" />
+                        <ui:Label text="Normal" display-tooltip-when-elided="true" name="Value" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="BossStageComplete" style="flex-direction: row;">
+                        <ui:Label text="#bossStage" display-tooltip-when-elided="true" name="ElementName" />
+                        <ui:Label text="Yes" display-tooltip-when-elided="true" name="Value" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="PortalRised" style="flex-direction: row;">
+                        <ui:Label text="#portalRised" display-tooltip-when-elided="true" name="ElementName" />
+                        <ui:Label text="Yes" display-tooltip-when-elided="true" name="Value" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="CloudSize" style="flex-direction: row;">
+                        <ui:Label text="#maxSize" display-tooltip-when-elided="true" name="ElementName" />
+                        <ui:Label text="Gigachad" display-tooltip-when-elided="true" name="Value" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="MaxSpeed" style="flex-direction: row;">
+                        <ui:Label text="#maxSpeed" display-tooltip-when-elided="true" name="ElementName" />
+                        <ui:Label text="30" display-tooltip-when-elided="true" name="Value" />
+                        <ui:Label text="#ms" display-tooltip-when-elided="true" name="Metric" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="GoldArmsOwner" style="flex-direction: row;">
+                        <ui:Label text="#goldArms" display-tooltip-when-elided="true" name="ElementName" />
+                        <ui:Label text="you" display-tooltip-when-elided="true" name="Value" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="SufferedDamageByBoss" style="flex-direction: row;">
+                        <ui:Label text="#sufferedDamageByBoss" display-tooltip-when-elided="true" name="ElementName" />
+                        <ui:Label text="30" display-tooltip-when-elided="true" name="Value" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="TimeElapsed" style="flex-direction: row;">
+                        <ui:Label text="#timeSpent" display-tooltip-when-elided="true" name="ElementName" />
+                        <ui:Label text="19000" display-tooltip-when-elided="true" name="Value" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Toggle label="#showItAgain" name="ShowResultsAgain" value="true" />
+            <ui:VisualElement name="Row2" style="flex-direction: row;">
+                <ui:Button text="#exitGame" display-tooltip-when-elided="true" name="GameExitButton" tabindex="3" />
+                <ui:Button text="#mainMenu" display-tooltip-when-elided="true" name="MenuButton" tabindex="2" />
+                <ui:Button text="#restart" display-tooltip-when-elided="true" name="RestartButton" tabindex="1" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

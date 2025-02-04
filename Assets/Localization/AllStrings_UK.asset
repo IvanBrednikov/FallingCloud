@@ -1,0 +1,274 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: AllStrings_UK
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: UK
+  m_SharedData: {fileID: 11400000, guid: faa74885f43ee1c47a17f2d5b8b441b4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 123200864256
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9416557985792
+    m_Localized: Easy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9498892173312
+    m_Localized: 'Attempt:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9689154191360
+    m_Localized: Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9941500297216
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10039416324096
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10274234433536
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10288658644992
+    m_Localized: Hard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11064361615360
+    m_Localized: Player movement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11150957215744
+    m_Localized: "Click left mouse button,\ndrag mouse and continue \nholding left
+      mouse button.\nRelease it for make impulse \nto your cloud."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11583717113856
+    m_Localized: Using perks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11665698979840
+    m_Localized: "Click on the perk icon \nat the top left screen\nto use it. Also
+      you can \npress \"Q\", \"W\", \"E\" on \nkeyboard to activate perk."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12168164016128
+    m_Localized: Done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12231892271104
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13147915681792
+    m_Localized: Screen resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13245122871296
+    m_Localized: Enable full screen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13369995689984
+    m_Localized: Master volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13531325399040
+    m_Localized: Effects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13581023707136
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13614766882816
+    m_Localized: Play wind sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13702352338944
+    m_Localized: Show speed arrows
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13820631711744
+    m_Localized: Show results at end
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15050728800256
+    m_Localized: Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15099638579200
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15141246074880
+    m_Localized: Exit game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15215023882240
+    m_Localized: Main menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16661572222976
+    m_Localized: 'Total points:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16750915092480
+    m_Localized: 'Distance complete:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16845404372992
+    m_Localized: 'Obstacles destroyed:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17039835529216
+    m_Localized: 'Projectiles destroyed:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17151517261824
+    m_Localized: 'Total food eaten:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17269184266240
+    m_Localized: 'Food earn by rain:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17361404428288
+    m_Localized: 'Object moved by tornado:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17570322710528
+    m_Localized: 'Suffered damage:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17679156510720
+    m_Localized: 'Attempt:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17816146673664
+    m_Localized: 'Health earn:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17914477936640
+    m_Localized: 'Difficulty:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18022221217792
+    m_Localized: 'Boss stage complete:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18138147586048
+    m_Localized: 'Portal rised:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18230422274048
+    m_Localized: 'Max cloud size:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18367773147136
+    m_Localized: 'Max speed:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18451306905600
+    m_Localized: 'Gold arms owner: you'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18613873934336
+    m_Localized: Suffered damage by boss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18725081710592
+    m_Localized: Time spent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18896892985344
+    m_Localized: Show this window again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19011288432640
+    m_Localized: Restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19129366478848
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19159666130944
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19180360826880
+    m_Localized: meters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19336237940736
+    m_Localized: Cloud
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19527787610112
+    m_Localized: Stormcloud
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19576814829568
+    m_Localized: Gigachad cloud
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19746390540288
+    m_Localized: m/s
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20650330161152
+    m_Localized: 'Seed:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20685935607808
+    m_Localized: 'Distance:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157140507113816064
+    m_Localized: Sensevity of input
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157165625907085312
+    m_Localized: "Defeat the giant cloud! The boss battle is available when the cloud
+      reaches 10 health points.\n To get health points, collect food scattered across
+      the sky. Use your acquired skills to get to\n the finals faster. Avoid hitting
+      obstacles, overcome gravity to move forward."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157168442499661824
+    m_Localized: What's going on anyway?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157536661659975680
+    m_Localized: 'Touch the screen and drag.
+
+      Then release to add impulse
+
+      on
+      your cloud.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157536705922465792
+    m_Localized: "Click on the perk icon \nat the bottom left screen\nto activate
+      it."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

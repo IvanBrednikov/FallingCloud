@@ -1,0 +1,442 @@
+Button {
+    width: 367px;
+    height: 150px;
+    font-size: 46px;
+    -unity-text-align: middle-center;
+    flex-shrink: 1;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url('project://database/Assets/Sprites/Interface/Button.png?fileID=21300000&guid=934b1310fdeaa34478db5cda06cb058c&type=3#Button');
+    max-width: 367px;
+    max-height: 150px;
+}
+
+Button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url('project://database/Assets/Sprites/Interface/ButtonSelect.png?fileID=21300000&guid=3fd9d3b25f728594cb9afc8fe4638dcd&type=3#ButtonSelect');
+}
+
+Button:active {
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url('project://database/Assets/Sprites/Interface/ButtonPressed.png?fileID=21300000&guid=3a973a4e6049cc442a102eee008b2a0a&type=3#ButtonPressed');
+}
+
+Button:focus {
+    -unity-background-image-tint-color: rgb(173, 173, 173);
+}
+
+.panel {
+    background-color: rgba(99, 255, 255, 0.67);
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-width: 7px;
+    border-right-width: 7px;
+    border-top-width: 7px;
+    border-bottom-width: 7px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+    flex-shrink: 1;
+    display: flex;
+}
+
+Slider {
+    flex-grow: 0;
+}
+
+.unity-slider__label {
+    font-size: 27px;
+    -unity-text-align: middle-right;
+    min-width: 100px;
+    justify-content: flex-start;
+    flex-grow: 1;
+    white-space: nowrap;
+}
+
+.unity-base-slider__input {
+    justify-content: center;
+    align-items: center;
+}
+
+.unity-base-slider__drag-container {
+    width: 250px;
+    height: 40px;
+    justify-content: center;
+    align-items: stretch;
+    max-width: 240px;
+}
+
+.unity-base-slider__tracker {
+    background-color: rgb(255, 255, 255);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    min-height: 8px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.unity-base-slider__dragger {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('project://database/Assets/Sprites/Interface/CheckButton_true%201.png?fileID=21300000&guid=40b325ae722c3be49ad6a281599af5c2&type=3#CheckButton_true 1');
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    min-width: 35px;
+    min-height: 35px;
+    align-items: stretch;
+    justify-content: center;
+    margin-top: -16px;
+}
+
+Toggle {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.unity-toggle__label {
+    min-width: 0;
+    font-size: 27px;
+}
+
+.unity-toggle__input {
+    width: 35px;
+    height: 35px;
+    justify-content: flex-start;
+    background-image: url('project://database/Assets/Sprites/Interface/CheckButtonFalse.png?fileID=21300000&guid=5273cc70a21ad9944aa02fdb74f1f544&type=3#CheckButtonFalse');
+}
+
+.unity-toggle__input:checked {
+    background-image: url('project://database/Assets/Sprites/Interface/CheckButton_true%201.png?fileID=2800000&guid=40b325ae722c3be49ad6a281599af5c2&type=3#CheckButton_true 1');
+}
+
+.unity-toggle__checkmark {
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.unity-toggle > .unity-toggle__input:checked > .unity-toggle__checkmark {
+    display: none;
+}
+
+DropdownField {
+    font-size: 27px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    max-width: 800px;
+}
+
+.unity-popup-field__label {
+    align-items: stretch;
+    justify-content: flex-start;
+    -unity-text-align: upper-right;
+}
+
+.unity-popup-field__input {
+    min-width: 280px;
+    max-height: 40px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(236, 236, 236);
+    justify-content: center;
+    align-items: stretch;
+}
+
+.unity-base-popup-field__text {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-right: -10px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+RadioButton {
+    justify-content: flex-start;
+}
+
+.unity-radio-button__label {
+    min-width: 40px;
+}
+
+.unity-radio-button__input {
+    min-width: 66px;
+}
+
+.unity-radio-button__checkmark-background {
+    min-width: 50px;
+    justify-content: flex-start;
+}
+
+.unity-radio-button__checkmark {
+}
+
+.button-difficulty {
+    background-image: none;
+    background-color: rgb(233, 233, 233);
+    font-size: 25px;
+    max-width: 140px;
+    max-height: 40px;
+    color: rgb(0, 0, 0);
+    margin-left: -1px;
+    margin-right: -1px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+}
+
+Button.button-difficulty:hover {
+    background-image: none;
+    background-color: rgb(164, 164, 164);
+    font-size: 25px;
+    max-width: 140px;
+    max-height: 40px;
+}
+
+Button.button-difficulty:focus {
+    background-image: none;
+    background-color: rgb(164, 164, 164);
+    font-size: 25px;
+    max-width: 140px;
+    max-height: 40px;
+}
+
+.button-difficulty-easy {
+    color: rgb(6, 255, 15);
+    background-color: rgb(9, 118, 18);
+}
+
+.button-difficulty-normal {
+    background-image: none;
+    background-color: rgb(64, 69, 255);
+    font-size: 25px;
+    max-width: 140px;
+    max-height: 40px;
+    color: rgb(0, 255, 159);
+    -unity-font-style: bold;
+}
+
+.button-difficulty-hard {
+    background-image: none;
+    background-color: rgb(118, 16, 9);
+    font-size: 25px;
+    max-width: 140px;
+    max-height: 40px;
+    -unity-font-style: bold;
+    color: rgb(255, 6, 6);
+}
+
+Button.button-difficulty-easy:hover {
+    font-size: 25px;
+    max-width: 140px;
+    max-height: 40px;
+    color: rgb(6, 192, 13);
+    background-color: rgb(6, 75, 12);
+}
+
+Button.button-difficulty-easy:focus {
+    font-size: 25px;
+    max-width: 140px;
+    max-height: 40px;
+    color: rgb(6, 192, 13);
+    background-color: rgb(6, 75, 12);
+}
+
+Button.button-difficulty-normal:hover {
+    font-size: 25px;
+    max-width: 140px;
+    max-height: 40px;
+    color: rgb(0, 255, 159);
+    -unity-font-style: bold;
+    background-color: rgb(45, 49, 188);
+}
+
+Button.button-difficulty-normal:focus {
+    font-size: 25px;
+    max-width: 140px;
+    max-height: 40px;
+    color: rgb(0, 255, 159);
+    -unity-font-style: bold;
+    background-color: rgb(45, 49, 188);
+}
+
+Button.button-difficulty-hard:hover {
+    background-image: none;
+    background-color: rgb(87, 13, 8);
+    font-size: 25px;
+    max-width: 140px;
+    max-height: 40px;
+    color: rgb(207, 0, 0);
+}
+
+Button.button-difficulty-hard:focus {
+    background-image: none;
+    background-color: rgb(87, 13, 8);
+    font-size: 25px;
+    max-width: 140px;
+    max-height: 40px;
+    color: rgb(207, 0, 0);
+}
+
+#ResultWindow #Row2 Button {
+    font-size: 22px;
+    min-width: 230px;
+    min-height: 110px;
+    width: auto;
+    height: auto;
+}
+
+#ResultWindow #Row1 Label {
+    font-size: 178%;
+    flex-shrink: 1;
+}
+
+.perkButton {
+    margin-right: 10px;
+    margin-left: 10px;
+    flex-shrink: 1;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 100px;
+    max-height: 100px;
+    visibility: hidden;
+}
+
+.rain-content-filling {
+    background-image: url('project://database/Assets/Sprites/Interface/RainButtonContent.png?fileID=2800000&guid=fb8730c9f52abf4478b2ec0810022d4c&type=3#RainButtonContent');
+    -unity-background-image-tint-color: rgb(128, 128, 128);
+}
+
+.rain-content-full {
+    background-image: url('project://database/Assets/Sprites/Interface/RainButtonFill.png?fileID=2800000&guid=e80349492ef780a4f925e06970f6fec7&type=3#RainButtonFill');
+}
+
+.lightning-content-filling {
+    background-image: url('project://database/Assets/Sprites/Interface/LightningButtonContent.png?fileID=2800000&guid=c70dac201d57f5647b04c052c7e8def4&type=3#LightningButtonContent');
+    -unity-background-image-tint-color: rgb(130, 130, 130);
+}
+
+.lightning-content-full {
+    background-image: url('project://database/Assets/Sprites/Interface/LightningButtonFill.png?fileID=2800000&guid=e02d89dba171a54498ab181c8326ced7&type=3#LightningButtonFill');
+}
+
+.tornado-content-filling {
+    background-image: url('project://database/Assets/Sprites/Interface/TornadoButtonContentl.png?fileID=2800000&guid=8cfb26c3742e0ac468c18bfa14ea1ca4&type=3#TornadoButtonContentl');
+    -unity-background-image-tint-color: rgb(130, 130, 130);
+}
+
+.tornado-content-full {
+    background-image: url('project://database/Assets/Sprites/Interface/TornadoButtonFill.png?fileID=2800000&guid=1ab67b3ef6e643a419f3e6b1328fb001&type=3#TornadoButtonFill');
+}
+
+.boss-content-gold {
+    background-image: url('project://database/Assets/Sprites/Interface/BossBarGold.png?fileID=21300000&guid=ada647f8c4dfc2c4189fce074fa4c587&type=3#BossBarGold');
+}
+
+.boss-content-red {
+    background-image: url('project://database/Assets/Sprites/Interface/BossBarRed.png?fileID=21300000&guid=00ada33e200cec641b2d1ed41097a3d5&type=3#BossBarRed');
+}
+
+.boss-content-blue {
+    background-image: url('project://database/Assets/Sprites/Interface/BossBarBlue.png?fileID=21300000&guid=129bd84bbc0b93f4cb65028cebf3d186&type=3#BossBarBlue');
+}
+
+.player-health {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    visibility: hidden;
+    width: 83px;
+    height: 70px;
+}
+
+.player-health-white {
+    background-image: url('project://database/Assets/Sprites/Interface/CloudHealth1.png?fileID=21300000&guid=d03c9e04057f6e54eb6801c2b10b59e3&type=3#CloudHealth1');
+}
+
+.player-health-gray {
+    background-image: url('project://database/Assets/Sprites/Interface/CloudHealth2.png?fileID=21300000&guid=3f78e4ee7355822468bf9cbb385ec062&type=3#CloudHealth2');
+}
+
+.player-health-red {
+    background-image: url('project://database/Assets/Sprites/Interface/CloudHealth3.png?fileID=2800000&guid=e56888373b7110446a4d96dfaf7a42df&type=3#CloudHealth3');
+}
+
+.player-health-gold {
+    background-image: url('project://database/Assets/Sprites/Interface/CloudHealth4.png?fileID=21300000&guid=4bfeb1d27e8cbb647885b242849eb44f&type=3#CloudHealth4');
+}
+
+#PauseMenu Button {
+    font-size: 35px;
+}
+
+.tutor-image-PC {
+    background-image: url('project://database/Assets/Sprites/Interface/PcTutorial.png?fileID=2800000&guid=0b796db874a3299438143a40c70fe34a&type=3#PcTutorial');
+}
+
+.tutor-image-android {
+    background-image: url('project://database/Assets/Sprites/Interface/MobileTutor.png?fileID=2800000&guid=f27114d8f41bf8b47887ba9c5f6a497d&type=3#MobileTutor');
+}

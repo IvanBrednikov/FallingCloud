@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/GameUI.uss?fileID=7433441132597879392&amp;guid=8cc69be38fa806f409e37f115ec5c629&amp;type=3#GameUI" />
+    <ui:VisualElement name="Root" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement name="MenuWindow" class="panel">
+            <ui:Button text="#start" display-tooltip-when-elided="true" name="StartButton" tooltip="Press this button to start the game" tabindex="1" focusable="true" enable-rich-text="false" />
+            <ui:VisualElement name="DifficultySelector" style="flex-direction: row; margin-left: 10px; margin-right: 10px; border-left-width: 4px; border-right-width: 4px; border-top-width: 4px; border-bottom-width: 4px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; align-items: center; overflow: hidden;">
+                <ui:Button text="#easy" display-tooltip-when-elided="true" name="Easy" tabindex="2" class="button-difficulty unity-radio-button button-difficulty-easy" />
+                <ui:Button text="#normal" display-tooltip-when-elided="true" name="Normal" tabindex="3" class="button-difficulty-selector button-difficulty" />
+                <ui:Button text="#hard" display-tooltip-when-elided="true" name="Hard" tabindex="4" class="button-difficulty-selector button-difficulty" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Attempts" style="flex-direction: row; font-size: 40px;">
+                <ui:Label text="#attempt" display-tooltip-when-elided="true" name="ElementName" />
+                <ui:Label text="19000" display-tooltip-when-elided="true" name="AttemptsLabel" />
+            </ui:VisualElement>
+            <ui:Button text="#tutorial" display-tooltip-when-elided="true" name="TutorialButton" tabindex="5" style="margin-top: 26px;" />
+            <ui:Button text="#options" display-tooltip-when-elided="true" name="OptionsButton" tabindex="6" />
+            <ui:Button text="#exit" display-tooltip-when-elided="true" name="ExitButton" tabindex="7" />
+        </ui:VisualElement>
+        <ui:VisualElement style="overflow: hidden;" />
+    </ui:VisualElement>
+</ui:UXML>

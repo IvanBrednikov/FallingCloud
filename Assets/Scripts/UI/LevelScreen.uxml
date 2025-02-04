@@ -1,0 +1,73 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/GameUI.uss?fileID=7433441132597879392&amp;guid=8cc69be38fa806f409e37f115ec5c629&amp;type=3#GameUI" />
+    <ui:VisualElement name="Root" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement name="LevelScreen" style="flex-grow: 1; justify-content: space-between; flex-direction: column; align-items: stretch; width: 100%;">
+            <ui:VisualElement name="RowBase">
+                <ui:VisualElement name="Row1" style="flex-direction: row; justify-content: space-between;">
+                    <ui:VisualElement name="PerksColumn">
+                        <ui:VisualElement name="PerkPanel" style="margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px; flex-direction: row; max-width: 370px;">
+                            <ui:Button display-tooltip-when-elided="true" name="RainButton" class="perkButton" style="background-image: url(&apos;project://database/Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png?fileID=7482667652216324306&amp;guid=48e93eef0688c4a259cb0eddcd8661f7&amp;type=3#Square&apos;); background-color: rgba(255, 255, 255, 0); -unity-background-image-tint-color: rgba(255, 255, 255, 0); justify-content: flex-end; visibility: hidden; max-width: 103px; max-height: 100px;">
+                                <ui:VisualElement name="RainMask" style="background-image: url(&apos;project://database/Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png?fileID=7482667652216324306&amp;guid=48e93eef0688c4a259cb0eddcd8661f7&amp;type=3#Square&apos;); width: 100px; height: 100px; -unity-background-image-tint-color: rgba(255, 255, 255, 0); overflow: hidden; position: absolute; justify-content: flex-end;">
+                                    <ui:VisualElement name="RainContent" class="rain-content-filling" style="width: 100px; height: 100px; justify-content: flex-start; position: absolute;" />
+                                </ui:VisualElement>
+                                <ui:VisualElement name="Stroke" style="background-image: url(&apos;project://database/Assets/Sprites/Interface/RainButtonStroke.png?fileID=21300000&amp;guid=806921f48e5b56e4388a5d8ab32d4b6e&amp;type=3#RainButtonStroke&apos;); width: 100px; height: 100px;" />
+                            </ui:Button>
+                            <ui:Button display-tooltip-when-elided="true" name="LightningButton" class="perkButton" style="background-image: url(&apos;project://database/Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png?fileID=7482667652216324306&amp;guid=48e93eef0688c4a259cb0eddcd8661f7&amp;type=3#Square&apos;); background-color: rgba(255, 255, 255, 0); overflow: visible; -unity-background-image-tint-color: rgba(255, 255, 255, 0); justify-content: flex-end; visibility: hidden; max-width: 103px;">
+                                <ui:VisualElement name="LightningMask" style="background-image: url(&apos;project://database/Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png?fileID=7482667652216324306&amp;guid=48e93eef0688c4a259cb0eddcd8661f7&amp;type=3#Square&apos;); width: 100px; height: 0; -unity-background-image-tint-color: rgba(255, 255, 255, 0); overflow: hidden; position: absolute; justify-content: flex-end;">
+                                    <ui:VisualElement name="LightningContent" class="lightning-content-filling" style="width: 100px; height: 100px; justify-content: flex-start; overflow: hidden; position: absolute;" />
+                                </ui:VisualElement>
+                                <ui:VisualElement name="Stroke" style="background-image: url(&apos;project://database/Assets/Sprites/Interface/LightningButtonStroke.png?fileID=21300000&amp;guid=eab30e01498c87e429e1093b1f25dde2&amp;type=3#LightningButtonStroke&apos;); width: 100px; height: 100px;" />
+                            </ui:Button>
+                            <ui:Button display-tooltip-when-elided="true" name="TornadoButton" class="perkButton" style="background-image: url(&apos;project://database/Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png?fileID=7482667652216324306&amp;guid=48e93eef0688c4a259cb0eddcd8661f7&amp;type=3#Square&apos;); background-color: rgba(255, 255, 255, 0); overflow: visible; -unity-background-image-tint-color: rgba(255, 255, 255, 0); justify-content: flex-end; visibility: hidden; max-width: 103px;">
+                                <ui:VisualElement name="TornadoMask" style="background-image: url(&apos;project://database/Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png?fileID=7482667652216324306&amp;guid=48e93eef0688c4a259cb0eddcd8661f7&amp;type=3#Square&apos;); width: 100px; height: 0; -unity-background-image-tint-color: rgba(255, 255, 255, 0); overflow: hidden; position: absolute; justify-content: flex-end;">
+                                    <ui:VisualElement name="TornadoContent" class="tornado-content-filling" style="width: 100px; height: 100px; justify-content: flex-start; overflow: hidden; position: absolute;" />
+                                </ui:VisualElement>
+                                <ui:VisualElement name="Stroke" style="background-image: url(&apos;project://database/Assets/Sprites/Interface/TornadoButtonStroke.png?fileID=21300000&amp;guid=848d61b7bbaf7f94d84f5796b3646a31&amp;type=3#TornadoButtonStroke&apos;); width: 100px; height: 100px;" />
+                            </ui:Button>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="PlayerHealthPanel" style="flex-direction: row-reverse; margin-left: 13px; margin-right: 13px; margin-top: 13px; margin-bottom: 13px;">
+                        <ui:VisualElement name="WhiteHealth1" class="player-health-white player-health" />
+                        <ui:VisualElement name="WhiteHealth2" class="player-health-white player-health" />
+                        <ui:VisualElement name="WhiteHealth3" class="player-health-white player-health" />
+                        <ui:VisualElement name="GrayHealth1" class="player-health player-health-gray" />
+                        <ui:VisualElement name="GrayHealth2" class="player-health player-health-gray" />
+                        <ui:VisualElement name="GrayHealth3" class="player-health player-health-gray" style="visibility: hidden;" />
+                        <ui:VisualElement name="RedHealth1" class="player-health player-health-red" />
+                        <ui:VisualElement name="RedHealth2" class="player-health player-health-red" />
+                        <ui:VisualElement name="RedHealth3" class="player-health player-health-red" />
+                        <ui:VisualElement name="BlackHealth" class="player-health player-health-gold" style="visibility: hidden;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="Row2" style="align-items: flex-end; top: -45px;">
+                    <ui:VisualElement name="Column">
+                        <ui:VisualElement name="NextHealthBar" style="overflow: visible;">
+                            <ui:VisualElement name="NextHealthMask" style="flex-direction: column; background-image: url(&apos;project://database/Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png?fileID=2800000&amp;guid=48e93eef0688c4a259cb0eddcd8661f7&amp;type=3#Square&apos;); -unity-background-image-tint-color: rgb(255, 255, 255); overflow: hidden; position: absolute; left: 0; visibility: hidden; width: 0;">
+                                <ui:VisualElement name="NextHealthContent" style="background-image: url(&apos;project://database/Assets/Sprites/Interface/BossBarGold.png?fileID=2800000&amp;guid=ada647f8c4dfc2c4189fce074fa4c587&amp;type=3#BossBarGold&apos;); width: 400px; height: 120px; visibility: visible;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="NextHealthStroke" style="background-image: url(&apos;project://database/Assets/Sprites/Interface/BossBarStroke.png?fileID=2800000&amp;guid=1a2ef65b7af0b3b438f181b6c20f261f&amp;type=3#BossBarStroke&apos;); width: 400px; height: 120px;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="Bonuses" style="flex-direction: row; justify-content: space-between; margin-top: -20px;">
+                            <ui:VisualElement name="AltitudeBonus" style="background-image: url(&apos;project://database/Assets/Sprites/Interface/AltitudeBonus.png?fileID=2800000&amp;guid=f9000c3c714a3d947ae90768c5d24709&amp;type=3#AltitudeBonus&apos;); width: 148px; height: 80px; top: -14px; visibility: hidden;" />
+                            <ui:VisualElement name="SpeedBonus" style="background-image: url(&apos;project://database/Assets/Sprites/Interface/SpeedBonus.png?fileID=2800000&amp;guid=aa484ee07b6ebf24da5887979f0c37df&amp;type=3#SpeedBonus&apos;); width: 155px; height: 55px; visibility: hidden;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Row3" style="align-items: stretch; justify-content: flex-start;">
+                <ui:VisualElement name="FlexedColumns" style="flex-direction: row; justify-content: space-between;">
+                    <ui:VisualElement name="PerkColumn" style="width: 33%; justify-content: flex-end; align-items: stretch; flex-direction: row;" />
+                    <ui:VisualElement name="BarColumn" style="width: 33%; align-items: center;">
+                        <ui:VisualElement name="BossHealthPanel" style="flex-direction: row; overflow: hidden; visibility: hidden;">
+                            <ui:VisualElement name="BossHealthMask" style="background-image: url(&apos;project://database/Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/Square.png?fileID=7482667652216324306&amp;guid=48e93eef0688c4a259cb0eddcd8661f7&amp;type=3#Square&apos;); -unity-background-image-tint-color: rgba(255, 255, 255, 0); overflow: hidden; position: absolute; width: 500px; height: 160px;">
+                                <ui:VisualElement name="BossHealthContent" class="boss-content-red" style="position: absolute; width: 500px; height: 160px;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="Stroke" style="background-image: url(&apos;project://database/Assets/Sprites/Interface/BossBarStroke.png?fileID=21300000&amp;guid=1a2ef65b7af0b3b438f181b6c20f261f&amp;type=3#BossBarStroke&apos;); width: 500px; height: 160px;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="EmptyColumn" style="width: 33%;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/GameUI.uss?fileID=7433441132597879392&amp;guid=8cc69be38fa806f409e37f115ec5c629&amp;type=3#GameUI" />
+    <ui:VisualElement name="Screen" style="flex-grow: 1; justify-content: center; align-items: center;">
+        <ui:VisualElement name="TutorialWindow" class="panel">
+            <ui:Label text="#tutorial" display-tooltip-when-elided="true" name="HowToPlay" style="font-size: 30px;" />
+            <ui:VisualElement name="Row1" style="flex-direction: row; align-items: stretch; justify-content: space-between;">
+                <ui:VisualElement name="Column1" style="border-left-width: 3px; border-right-width: 3px; border-top-width: 3px; border-bottom-width: 3px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); margin-left: 10px; margin-right: 10px; margin-top: 7px; margin-bottom: 7px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; justify-content: flex-start; align-items: center;">
+                    <ui:Label text="#playerMovement" display-tooltip-when-elided="true" style="font-size: 20px; -unity-text-align: upper-center;" />
+                    <ui:VisualElement name="PlayrImage" style="background-image: url(&apos;project://database/Assets/Sprites/Player/Cloud.png?fileID=21300000&amp;guid=f4233905d3d183b4193875f9366e38c1&amp;type=3#Cloud&apos;); width: 120px; height: 70px; align-items: center; justify-content: center;" />
+                    <ui:VisualElement name="TutorImage" class="tutor-image-PC" style="width: 219px; height: 250px;" />
+                    <ui:Label text="#movementDescription" display-tooltip-when-elided="true" name="moveDescLabel" style="font-size: 25px;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="justify-content: center;">
+                    <ui:VisualElement name="Razdelitel" style="background-image: url(&apos;project://database/Assets/Sprites/Interface/Line.png?fileID=21300000&amp;guid=58e7fff0564f67d45b02a41b4f4ef2a5&amp;type=3#Line&apos;); width: 35px; height: 512px; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Column2" style="border-left-width: 3px; border-right-width: 3px; border-top-width: 3px; border-bottom-width: 3px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); margin-left: 10px; margin-right: 10px; margin-top: 7px; margin-bottom: 7px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; justify-content: flex-start; align-items: center;">
+                    <ui:Label text="#usingPerks" display-tooltip-when-elided="true" name="Perks" style="font-size: 20px; -unity-text-align: upper-center;" />
+                    <ui:VisualElement name="PerksImages" style="flex-direction: row;">
+                        <ui:VisualElement name="LightningImage" style="background-image: url(&apos;project://database/Assets/Sprites/Interface/RainButtonCharged.png?fileID=21300000&amp;guid=ad0d65ed0ac4f0840bce5719ef2ff9e6&amp;type=3#RainButtonCharged&apos;); width: 70px; height: 70px; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px;" />
+                        <ui:VisualElement name="TornadoImage" style="background-image: url(&apos;project://database/Assets/Sprites/Interface/LightningButton.png?fileID=21300000&amp;guid=65e40314d0281744e9b4209e4e289ad0&amp;type=3#LightningButton&apos;); width: 70px; height: 70px; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px;" />
+                        <ui:VisualElement name="RainImage" style="background-image: url(&apos;project://database/Assets/Sprites/Interface/TornadoButton.png?fileID=21300000&amp;guid=d30e6e761c903cd42918c22535cbc2ca&amp;type=3#TornadoButton&apos;); width: 70px; height: 70px; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px;" />
+                    </ui:VisualElement>
+                    <ui:Label text="#perksDescription" display-tooltip-when-elided="true" name="Description" style="font-size: 25px; white-space: normal;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Description" style="margin-left: 10px; margin-right: 10px; margin-top: 7px; margin-bottom: 7px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; border-left-width: 3px; border-right-width: 3px; border-top-width: 3px; border-bottom-width: 3px; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); min-width: 620px; min-height: 120px;">
+                <ui:Label text="#whatToDo" display-tooltip-when-elided="true" style="font-size: 25px; -unity-text-align: upper-center;" />
+                <ui:Label text="#gameDescription" display-tooltip-when-elided="true" style="font-size: 25px; -unity-text-align: upper-center; white-space: nowrap;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Row3" style="flex-direction: row;">
+                <ui:Button text="#done" display-tooltip-when-elided="true" name="Done" style="width: 200px; height: 90px; font-size: 31px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

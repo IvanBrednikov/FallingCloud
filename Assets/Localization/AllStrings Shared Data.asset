@@ -1,0 +1,268 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: AllStrings Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: AllStrings
+  m_TableCollectionNameGuidString: faa74885f43ee1c47a17f2d5b8b441b4
+  m_Entries:
+  - m_Id: 123200864256
+    m_Key: start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9416557985792
+    m_Key: easy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9498892173312
+    m_Key: attempt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9689154191360
+    m_Key: tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9941500297216
+    m_Key: options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10039416324096
+    m_Key: exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10274234433536
+    m_Key: normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10288658644992
+    m_Key: hard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11064361615360
+    m_Key: playerMovement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11150957215744
+    m_Key: movementDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11583717113856
+    m_Key: usingPerks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11665698979840
+    m_Key: perksDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12168164016128
+    m_Key: done
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12231892271104
+    m_Key: language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13147915681792
+    m_Key: screenRes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13245122871296
+    m_Key: fullScreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13369995689984
+    m_Key: masterVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13531325399040
+    m_Key: effects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13581023707136
+    m_Key: music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13614766882816
+    m_Key: playWind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13702352338944
+    m_Key: showArrows
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13820631711744
+    m_Key: showResults
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15050728800256
+    m_Key: pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15099638579200
+    m_Key: resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15141246074880
+    m_Key: exitGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15215023882240
+    m_Key: mainMenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16661572222976
+    m_Key: totalPoints
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16750915092480
+    m_Key: distance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16845404372992
+    m_Key: obstacleDestroyed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17039835529216
+    m_Key: projectilesDestroyed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17151517261824
+    m_Key: totalFood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17269184266240
+    m_Key: foodByRain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17361404428288
+    m_Key: objectsTornado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17570322710528
+    m_Key: sufferedDamage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17679156510720
+    m_Key: currentAttempt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17816146673664
+    m_Key: healthEarn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17914477936640
+    m_Key: difficulty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18022221217792
+    m_Key: bossStage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18138147586048
+    m_Key: portalRised
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18230422274048
+    m_Key: maxSize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18367773147136
+    m_Key: maxSpeed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18451306905600
+    m_Key: goldArms
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18613873934336
+    m_Key: sufferedDamageByBoss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18725081710592
+    m_Key: timeSpent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18896892985344
+    m_Key: showItAgain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19011288432640
+    m_Key: restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19129366478848
+    m_Key: yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19159666130944
+    m_Key: no
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19180360826880
+    m_Key: meters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19336237940736
+    m_Key: size1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19527787610112
+    m_Key: size2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19576814829568
+    m_Key: size3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19746390540288
+    m_Key: ms
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20650330161152
+    m_Key: seed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20685935607808
+    m_Key: distanceDebug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157140507113816064
+    m_Key: impulseSens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157165625907085312
+    m_Key: gameDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157168442499661824
+    m_Key: whatToDo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157536661659975680
+    m_Key: movement-android-description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157536705922465792
+    m_Key: perks-description-android
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 5646967860931592240
+  references:
+    version: 2
+    RefIds:
+    - rid: 5646967860931592240
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1700181198755

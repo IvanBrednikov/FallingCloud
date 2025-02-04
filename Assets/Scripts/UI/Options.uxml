@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/GameUI.uss?fileID=7433441132597879392&amp;guid=8cc69be38fa806f409e37f115ec5c629&amp;type=3#GameUI" />
+    <ui:VisualElement name="Root" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement name="OptionsWindow" class="panel" style="flex-direction: column; padding-left: 15px; padding-right: 15px; padding-top: 15px; padding-bottom: 15px;">
+            <ui:VisualElement name="Row1" style="flex-direction: row;">
+                <ui:VisualElement name="Column1" style="align-items: center; flex-grow: 1;">
+                    <ui:VisualElement style="flex-direction: column; align-items: flex-end;">
+                        <ui:DropdownField label="#language" index="0" choices="English,Russian" name="Language" tabindex="1" />
+                        <ui:DropdownField label="#screenRes" index="0" choices="1200ы900,1300ч600" name="ScreenResolution" tabindex="2" />
+                    </ui:VisualElement>
+                    <ui:Toggle label="#fullScreen" name="FullScreen" tabindex="6" value="true" />
+                    <ui:Slider picking-mode="Ignore" label="#masterVolume" value="0" high-value="20" name="Master" show-input-field="false" tabindex="3" low-value="-40" />
+                    <ui:Slider label="#effects" value="0" high-value="20" name="Effects" picking-mode="Ignore" tabindex="4" low-value="-40" />
+                    <ui:Slider picking-mode="Ignore" label="#music" value="0" high-value="20" name="Music" tabindex="5" low-value="-40" />
+                    <ui:Slider picking-mode="Ignore" label="#impulseSens" value="2" high-value="5" name="ImpulsSensevity" tabindex="5" low-value="1">
+                        <ui:Button display-tooltip-when-elided="true" name="ReturnSens" style="height: 35px; width: 35px; background-image: url(&apos;project://database/Assets/Sprites/Interface/ReturnSetting.png?fileID=21300000&amp;guid=987e48a1bd3721948aaea1dff4cd3729&amp;type=3#ReturnSetting&apos;);" />
+                    </ui:Slider>
+                    <ui:Toggle label="#playWind" name="WindSoundOn" tabindex="6" value="true" />
+                    <ui:Toggle label="#showArrows" name="ShowArrows" tabindex="6" value="true" />
+                    <ui:Toggle label="#showResults" name="ShowResultsPanel" tabindex="6" value="true" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Row2" style="flex-direction: row; padding-top: 63px;">
+                <ui:Button text="#done" display-tooltip-when-elided="true" name="DoneButton" tooltip="Back to menu" tabindex="7" style="width: 236px; height: 110px; font-size: 40px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
